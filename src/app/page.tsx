@@ -92,9 +92,6 @@ export default function Home() {
           <h3 className="text-gray-800 text-xl font-bold sm:text-2xl">
             Pendidikan
           </h3>
-          <p className="text-gray-600 mt-2">
-            Berikut Pendidikan Saya.
-          </p>
         </div>
         <div className="mt-12 shadow-sm border rounded-lg overflow-x-auto">
           <table className="w-full table-auto text-sm text-left">
@@ -126,9 +123,6 @@ export default function Home() {
           <h3 className="text-gray-800 text-xl font-bold sm:text-2xl">
             Organisasi
           </h3>
-          <p className="text-gray-600 mt-2">
-            Berikut Organisasi yang Saya ikuti.
-          </p>
         </div>
         <div className="mt-12 shadow-sm border rounded-lg overflow-x-auto">
           <table className="w-full table-auto text-sm text-left">
