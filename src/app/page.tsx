@@ -1,113 +1,256 @@
-import Image from 'next/image'
+import Link from "next/link"
 
+/* eslint-disable @next/next/no-img-element */
 export default function Home() {
+  const tableItemspendidikan = [
+    {
+      namasekolah: "Sekolah Dasar Negeri Nagasari v Karawang Barat",
+      jurusan: "-",
+      nilai: "-",
+      lulustahun: "2006"
+    },
+    {
+      namasekolah: "Sekolah Menengah Pertama Negeri 3 Karawang Barat",
+      jurusan: "-",
+      nilai: "-",
+      lulustahun: "2010"
+    },
+    {
+      namasekolah: "Sekolah Menengah Kejuruan Taruna Karya 1.76 Karawang Barat",
+      jurusan: "Teknik Mesin",
+      nilai: "-",
+      lulustahun: "2013"
+    },
+    {
+      namasekolah: "Sekolah Tinggi Manajemen Informatika Rosma Karawang",
+      jurusan: "Teknik Informatika",
+      nilai: "3.15",
+      lulustahun: "2021"
+    },
+
+  ]
+
+  const tableItemsorganisasi = [
+    {
+      namasekolah: "Komunitas Mahasiswa Sistem Informasi (KOMASI)",
+      jabatan: "DIV C",
+      keterangan: "Sebagai hubungan internal dan eksternal",
+      tahunbergabung: "2017",
+    },
+    {
+      namasekolah: "Komunitas Mahasiswa Sistem Informasi (KOMASI)",
+      jabatan: "DIV C",
+      keterangan: "Sebagai hubungan internal dan eksternal",
+      tahunbergabung: "2018",
+    },
+    {
+      namasekolah: "Himpunan Mahasiswa Teknik Informatika (HMTI)",
+      jabatan: "Div C",
+      keterangan: "Sebagai hubungan internal dan eksternal",
+      tahunbergabung: "2019",
+    },
+    {
+      namasekolah: "Komunitas Studi Linux (KSL)",
+      jabatan: "Ketua sekaligus pendiri",
+      keterangan: "Ethical Hacking, dan Linux Web Server",
+      tahunbergabung: "2020",
+    },
+  ]
   return (
-    <main className="flex min-h-screen flex-col items-center justify-between p-24">
-      <div className="z-10 max-w-5xl w-full items-center justify-between font-mono text-sm lg:flex">
-        <p className="fixed left-0 top-0 flex w-full justify-center border-b border-gray-300 bg-gradient-to-b from-zinc-200 pb-6 pt-8 backdrop-blur-2xl dark:border-neutral-800 dark:bg-zinc-800/30 dark:from-inherit lg:static lg:w-auto  lg:rounded-xl lg:border lg:bg-gray-200 lg:p-4 lg:dark:bg-zinc-800/30">
-          Get started by editing&nbsp;
-          <code className="font-mono font-bold">src/app/page.tsx</code>
-        </p>
-        <div className="fixed bottom-0 left-0 flex h-48 w-full items-end justify-center bg-gradient-to-t from-white via-white dark:from-black dark:via-black lg:static lg:h-auto lg:w-auto lg:bg-none">
-          <a
-            className="pointer-events-none flex place-items-center gap-2 p-8 lg:pointer-events-auto lg:p-0"
-            href="https://vercel.com?utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            By{' '}
-            <Image
-              src="/vercel.svg"
-              alt="Vercel Logo"
-              className="dark:invert"
-              width={100}
-              height={24}
-              priority
-            />
-          </a>
+    <div className="bg-white">
+      <div className="text-black">
+        <section className="py-14">
+          <div className="max-w-screen-xl mx-auto md:px-8">
+            <div className="items-center gap-x-12 sm:px-4 md:px-0 lg:flex">
+              <div className="flex-1 sm:hidden lg:block">
+                <img src="https://media.licdn.com/dms/image/C4E03AQGcNaNiIsGIIg/profile-displayphoto-shrink_800_800/0/1619941879316?e=2147483647&v=beta&t=FnQJBTndlnUMmfDGipzTdWUT5AIo5bkiqCFM_Y1QHSM" className="md:max-w-lg sm:rounded-lg" alt="" />
+              </div>
+              <div className="max-w-xl px-4 space-y-3 mt-6 sm:px-0 md:mt-0 lg:max-w-2xl">
+                <h3 className="text-indigo-600 font-semibold">
+                  Halo Perkenalkan Saya
+                </h3>
+                <p className="text-gray-800 text-3xl font-semibold sm:text-4xl">
+                  Willy Permana Ok
+                </p>
+                <p className="mt-3 text-gray-600 text-justify">
+                  Saya Membuat Website ini sebagai CV dan Portofolio untuk bisa ditampilkan kepada Anda.
+                  <br />Saya Membangun Website ini dengan Framework Next.Js tentunya dibantu oleh TailwindCss.
+                </p>
+                <Link href="/Pengalaman-Perkerjaan" className="inline-flex gap-x-1 items-center text-indigo-600 hover:text-indigo-500 duration-150 font-medium">
+                  Cari tahu Pengalaman Saya
+                  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" className="w-5 h-5">
+                    <path fillRule="evenodd" d="M3 10a.75.75 0 01.75-.75h10.638L10.23 5.29a.75.75 0 111.04-1.08l5.5 5.25a.75.75 0 010 1.08l-5.5 5.25a.75.75 0 11-1.04-1.08l4.158-3.96H3.75A.75.75 0 013 10z" clipRule="evenodd" />
+                  </svg>
+                </Link>
+              </div>
+            </div>
+          </div>
+        </section>
+      </div>
+      <div className="max-w-screen-xl mx-auto px-4 md:px-8">
+        <div className="max-w-lg">
+          <h3 className="text-gray-800 text-xl font-bold sm:text-2xl">
+            Pendidikan
+          </h3>
+          <p className="text-gray-600 mt-2">
+            Berikut Pendidikan Saya.
+          </p>
+        </div>
+        <div className="mt-12 shadow-sm border rounded-lg overflow-x-auto">
+          <table className="w-full table-auto text-sm text-left">
+            <thead className="bg-gray-50 text-gray-600 font-medium border-b">
+              <tr>
+                <th className="py-3 px-6">Nama Sekolah</th>
+                <th className="py-3 px-6">Jurusan</th>
+                <th className="py-3 px-6">Nilai</th>
+                <th className="py-3 px-6">Tahun Lulus</th>
+              </tr>
+            </thead>
+            <tbody className="text-gray-600 divide-y">
+              {
+                tableItemspendidikan.map((item, idx) => (
+                  <tr key={idx}>
+                    <td className="px-6 py-4 whitespace-nowrap">{item.namasekolah}</td>
+                    <td className="px-6 py-4 whitespace-nowrap">{item.jurusan}</td>
+                    <td className="px-6 py-4 whitespace-nowrap">{item.nilai}</td>
+                    <td className="px-6 py-4 whitespace-nowrap">{item.lulustahun}</td>
+                  </tr>
+                ))
+              }
+            </tbody>
+          </table>
         </div>
       </div>
+      <div className="max-w-screen-xl mx-auto px-4 md:px-8 py-10">
+        <div className="max-w-lg">
+          <h3 className="text-gray-800 text-xl font-bold sm:text-2xl">
+            Organisasi
+          </h3>
+          <p className="text-gray-600 mt-2">
+            Berikut Organisasi yang Saya ikuti.
+          </p>
+        </div>
+        <div className="mt-12 shadow-sm border rounded-lg overflow-x-auto">
+          <table className="w-full table-auto text-sm text-left">
+            <thead className="bg-gray-50 text-gray-600 font-medium border-b">
+              <tr>
+                <th className="py-3 px-6">Nama Organisasi</th>
+                <th className="py-3 px-6">Jabatan</th>
+                <th className="py-3 px-6">Keterangan</th>
+                <th className="py-3 px-6">Tahun Bergabung</th>
 
-      <div className="relative flex place-items-center before:absolute before:h-[300px] before:w-[480px] before:-translate-x-1/2 before:rounded-full before:bg-gradient-radial before:from-white before:to-transparent before:blur-2xl before:content-[''] after:absolute after:-z-20 after:h-[180px] after:w-[240px] after:translate-x-1/3 after:bg-gradient-conic after:from-sky-200 after:via-blue-200 after:blur-2xl after:content-[''] before:dark:bg-gradient-to-br before:dark:from-transparent before:dark:to-blue-700 before:dark:opacity-10 after:dark:from-sky-900 after:dark:via-[#0141ff] after:dark:opacity-40 before:lg:h-[360px] z-[-1]">
-        <Image
-          className="relative dark:drop-shadow-[0_0_0.3rem_#ffffff70] dark:invert"
-          src="/next.svg"
-          alt="Next.js Logo"
-          width={180}
-          height={37}
-          priority
-        />
+              </tr>
+            </thead>
+            <tbody className="text-gray-600 divide-y">
+              {
+                tableItemsorganisasi.map((item, idx) => (
+                  <tr key={idx}>
+                    <td className="px-6 py-4 whitespace-nowrap">{item.namasekolah}</td>
+                    <td className="px-6 py-4 whitespace-nowrap">{item.jabatan}</td>
+                    <td className="px-6 py-4 whitespace-nowrap">{item.keterangan}</td>
+                    <td className="px-6 py-4 whitespace-nowrap">{item.tahunbergabung}</td>
+                  </tr>
+                ))
+              }
+            </tbody>
+          </table>
+        </div>
       </div>
+      <div className="px-4 py-16 mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-24 lg:px-8 lg:py-20">
+        <div className="grid gap-8 lg:grid-cols-3 sm:max-w-sm sm:mx-auto lg:max-w-full">
+          <div className="overflow-hidden transition-shadow duration-300 bg-white rounded shadow-sm">
+            <img
+              src="https://i.pinimg.com/564x/de/97/8a/de978a9bff33c90837ce83be98a78db8.jpg"
+              className="object-cover w-full h-64 rounded-md"
+              alt="ANALISIS BEHAVIOR INTENTION"
+            />
+            <div className="p-5 border border-t-0">
+              <p className="mb-3 text-xs font-semibold tracking-wide uppercase">
+                <Link
+                  href="https://www.researchgate.net/publication/367595708_ANALISIS_BEHAVIOR_INTENTION_TERHADAP_KEEFEKTIFAN_MEDIA_PROMOSI_DIGITAL_MENGGUNAKAN_AUGMENTED_REALITY"
+                  className="transition-colors duration-200 text-blue-gray-900 hover:text-deep-purple-accent-700"
+                  aria-label="Category"
+                  title="traveling"
+                >
+                  Jurnal
+                </Link>
+              </p>
+              <Link
+                href="https://www.researchgate.net/publication/367595708_ANALISIS_BEHAVIOR_INTENTION_TERHADAP_KEEFEKTIFAN_MEDIA_PROMOSI_DIGITAL_MENGGUNAKAN_AUGMENTED_REALITY"
+                aria-label="Category"
+                title="Visit the East"
+                className="inline-block mb-3 text-2xl font-bold leading-5 transition-colors duration-200 hover:text-deep-purple-accent-700 text-black"
+              >
+                Jurnal yang Saya buat
+              </Link>
+              <p className="mb-2 text-gray-700">
+                Jurnal Analisis Behavior Intention ......
+              </p>
+            </div>
+          </div>
+          <div className="overflow-hidden transition-shadow duration-300 bg-white rounded shadow-sm">
+            <img
+              src="https://www.karawangkab.go.id/sites/default/files/styles/berita_list/public/berita/45860985_1999507016739094_4369598974862092494_n.jpg?itok=7e31yiv7"
+              className="object-cover w-full h-64 rounded-md"
+              alt="serverhack organization"
+            />
+            <div className="p-5 border border-t-0">
+              <p className="mb-3 text-xs font-semibold tracking-wide uppercase">
+                <a
+                  href="/"
+                  className="transition-colors duration-200 text-blue-gray-900 hover:text-deep-purple-accent-700"
+                  aria-label="Category"
+                  title="traveling"
+                >
+                  Organisasi yang Saya ikuti
+                </a>
 
-      <div className="mb-32 grid text-center lg:max-w-5xl lg:w-full lg:mb-0 lg:grid-cols-4 lg:text-left">
-        <a
-          href="https://nextjs.org/docs?utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
-          className="group rounded-lg border border-transparent px-5 py-4 transition-colors hover:border-gray-300 hover:bg-gray-100 hover:dark:border-neutral-700 hover:dark:bg-neutral-800/30"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <h2 className={`mb-3 text-2xl font-semibold`}>
-            Docs{' '}
-            <span className="inline-block transition-transform group-hover:translate-x-1 motion-reduce:transform-none">
-              -&gt;
-            </span>
-          </h2>
-          <p className={`m-0 max-w-[30ch] text-sm opacity-50`}>
-            Find in-depth information about Next.js features and API.
-          </p>
-        </a>
-
-        <a
-          href="https://nextjs.org/learn?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-          className="group rounded-lg border border-transparent px-5 py-4 transition-colors hover:border-gray-300 hover:bg-gray-100 hover:dark:border-neutral-700 hover:dark:bg-neutral-800/30"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <h2 className={`mb-3 text-2xl font-semibold`}>
-            Learn{' '}
-            <span className="inline-block transition-transform group-hover:translate-x-1 motion-reduce:transform-none">
-              -&gt;
-            </span>
-          </h2>
-          <p className={`m-0 max-w-[30ch] text-sm opacity-50`}>
-            Learn about Next.js in an interactive course with&nbsp;quizzes!
-          </p>
-        </a>
-
-        <a
-          href="https://vercel.com/templates?framework=next.js&utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
-          className="group rounded-lg border border-transparent px-5 py-4 transition-colors hover:border-gray-300 hover:bg-gray-100 hover:dark:border-neutral-700 hover:dark:bg-neutral-800/30"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <h2 className={`mb-3 text-2xl font-semibold`}>
-            Templates{' '}
-            <span className="inline-block transition-transform group-hover:translate-x-1 motion-reduce:transform-none">
-              -&gt;
-            </span>
-          </h2>
-          <p className={`m-0 max-w-[30ch] text-sm opacity-50`}>
-            Explore the Next.js 13 playground.
-          </p>
-        </a>
-
-        <a
-          href="https://vercel.com/new?utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
-          className="group rounded-lg border border-transparent px-5 py-4 transition-colors hover:border-gray-300 hover:bg-gray-100 hover:dark:border-neutral-700 hover:dark:bg-neutral-800/30"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <h2 className={`mb-3 text-2xl font-semibold`}>
-            Deploy{' '}
-            <span className="inline-block transition-transform group-hover:translate-x-1 motion-reduce:transform-none">
-              -&gt;
-            </span>
-          </h2>
-          <p className={`m-0 max-w-[30ch] text-sm opacity-50`}>
-            Instantly deploy your Next.js site to a shareable URL with Vercel.
-          </p>
-        </a>
+              </p>
+              <Link
+                href="https://www.karawangkab.go.id/headline/seminar-cyber-security-defence"
+                aria-label="Category"
+                title="Simple is better"
+                className="inline-block mb-3 text-2xl font-bold leading-5 transition-colors duration-200 hover:text-deep-purple-accent-700 text-black"
+              >
+                Serverhack Organization
+              </Link>
+              <p className="mb-2 text-gray-700">
+                Serverhack Organization
+              </p>
+            </div>
+          </div>
+          <div className="overflow-hidden transition-shadow duration-300 bg-white rounded shadow-sm">
+            <img
+              src="https://vpnoverview.com/wp-content/uploads/what-is-a-hacker-what-is-hacking-featured-800x400.png"
+              className="object-cover w-full h-64 rounded-md"
+              alt=""
+            />
+            <div className="p-5 border border-t-0">
+              <p className="mb-3 text-xs font-semibold tracking-wide uppercase">
+                <Link
+                  href="https://www.youtube.com/watch?v=Eqa0x_y_ld8"
+                  className="transition-colors duration-200 text-blue-gray-900 hover:text-deep-purple-accent-700"
+                  aria-label="Category"
+                  title="traveling"
+                >
+                  Pembicara IT Security
+                </Link>
+              </p>
+              <a
+                href="https://www.youtube.com/watch?v=Eqa0x_y_ld8"
+                aria-label="Category"
+                title="Film It!"
+                className="inline-block mb-3 text-2xl font-bold leading-5 transition-colors duration-200 hover:text-deep-purple-accent-700 text-black"
+              >
+                Pembicara IT Security
+              </a>
+              <p className="mb-2 text-gray-700">
+                Diundang kreator programming.
+              </p>
+            </div>
+          </div>
+        </div>
       </div>
-    </main>
+    </div>
   )
 }
