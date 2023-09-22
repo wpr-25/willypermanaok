@@ -54,6 +54,26 @@ export default function Portofolio() {
                             <hr className="my-6 border-gray-200 dark:border-gray-700" />
 
                             <div>
+                                <h3 className="text-blue-500 capitalize">Puf Sains Lab</h3>
+
+                                <Link href="https://psl.id/" className="block mt-2 font-medium text-gray-700 hover:underline hover:text-gray-500 dark:text-gray-400 ">
+                                    first Portofolio
+                                </Link>
+                            </div>
+
+                            <hr className="my-6 border-gray-200 dark:border-gray-700" />
+
+                            <div>
+                                <h3 className="text-blue-500 capitalize">MoviZoo</h3>
+
+                                <Link href="https://movizoo.id/" className="block mt-2 font-medium text-gray-700 hover:underline hover:text-gray-500 dark:text-gray-400 ">
+                                    first Portofolio
+                                </Link>
+                            </div>
+
+                            <hr className="my-6 border-gray-200 dark:border-gray-700" />
+
+                            <div>
                                 <h3 className="text-blue-500 capitalize">Porto 1</h3>
 
                                 <Link href="https://portofolio1-beta.vercel.app/" className="block mt-2 font-medium text-gray-700 hover:underline hover:text-gray-500 dark:text-gray-400 ">

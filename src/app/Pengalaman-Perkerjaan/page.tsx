@@ -128,54 +128,71 @@ export default function Pengalaman() {
                 <div className="lg:col-span-2 lg:col-start-1 lg:row-start-2 lg:mx-auto lg:grid lg:w-full lg:max-w-7xl lg:grid-cols-2 lg:gap-x-8 lg:px-8">
                     <div className="lg:pr-4">
                         <div className="max-w-xl text-base leading-7 text-gray-700 text-justify lg:max-w-lg">
-                            <p>
-                                Berikut adalah Pengalaman dalam dunia Perkerjaan Saya
-                            </p>
+
                             <ul role="list" className="mt-8 space-y-8 text-gray-600">
                                 <li className="flex gap-x-3">
                                     <ArrowPathIcon className="mt-1 h-5 w-5 flex-none text-indigo-600" aria-hidden="true" />
                                     <span>
-                                        <strong className="font-semibold text-gray-900 text-justify">2018-2020.</strong>
-                                        <br /> Saya Berkerja di Sekolah Tinggi Manajemen Informatika Rosma
-                                        <br /> Saya Berkerja tepatnya ditempat kuliah Saya sendiri, dan memulai karir sebagai IT Support dan Infrastruktur, namun dalam departemen kami disebut dengan UPT atau Unit Pelaksana Teknis.
-                                        <br /> Disini Saya menjalankan Tugas Seperti mendata aset Infrastruktur Teknologi Informasi, membangun jaringan komputer dengan mikrotik melalui bantuan winbox, mebuat limitasi bandwitch, membantu membangun server hingga bisa membangun sendiri server menggunakan ubuntu server.
-                                        <br /> Pencapaian yang saya dapatkan adalah membangun Learning Management System (LMS) dengan framework Moodle, dimana pada saat itu Masa Pandemi Covid-19 akan baru mulai dan kami sudah menyiapkannya untuk kebutuhan Mahasiswa.
+                                        <strong className="font-semibold text-gray-900 text-justify">STMIK ROSMA</strong>
+                                        <br /><strong className="font-semibold text-gray-900 text-justify">Februari 2018 - November 2020.</strong>
+                                        <br /> <ul>
+                                            <li>Network Adminsitrator Mikrotik.</li>
+                                            <li>Management asset Infrastructure.</li>
+                                            <li>Server Administrator & Instalation (Windows & Linux).</li>
+                                            <li>Office 365 Administrator.</li>
+                                            <li>Google Workspace Administrator.</li>
+                                            <li>Installation Windows & Linux.</li>
+                                            <li>Support Layer 1 & 2.</li>
+                                        </ul>
                                     </span>
                                 </li>
                                 <li className="flex gap-x-3">
                                     <ArrowPathIcon className="mt-1 h-5 w-5 flex-none text-indigo-600" aria-hidden="true" />
                                     <span>
+                                        <strong className="font-semibold text-gray-900">PT. Saranalab Mandiri Analitika</strong>
                                         <strong className="font-semibold text-gray-900">Januari 2021 - Desember 2021.</strong>
-                                        <br /> Saya Berkerja di suatu perusahaan dimana itu bergerak dalam industri laboratorium yaitu PT. Saranalab Mandiri Analitika.
-                                        <br /> Di Perusahaan ke dua ini Saya berkerja sebaga IT Support dan Digital Marketing.
-                                        <br /> Disini Saya menjalankan Tugas Seperti membangun Website menggunakan framework cms Wordpress dan membangun SEO dan SEM, lalu membangun media sosial yang interaktif dengan pengguna dan menghasilkan bagi perusahaan dalam hal konversinya.
-                                        <br /> Pencapaian yang saya dapatkan adalah membangun Website perusahaan dan memaksimalkan google ranking pada saat itu dan bisa menjadikannya pada posisi pertama 1st pada kategori laboratorium skala asia indonesia.
+                                        <br /> <ul>
+                                            <li>Network Adminsitrator Mikrotik.</li>
+                                            <li>Management asset Infrastructure.</li>
+                                            <li>Office 365 Administrator.</li>
+                                            <li>Google Workspace Administrator.</li>
+                                            <li>Installation Windows & Linux.</li>
+                                            <li>Support Layer 1 & 2.</li>
+                                            <li>CMS Wordpress</li>
+                                            <li>SEO, SEM & ADS.</li>
+                                            <li>Adobe Photosop & Illustrator</li>
+                                            <li>Adobe Priemere Pro</li>
+                                        </ul>
                                     </span>
                                 </li>
                                 <li className="flex gap-x-3">
                                     <ArrowPathIcon className="mt-1 h-5 w-5 flex-none text-indigo-600" aria-hidden="true" />
                                     <span>
                                         <strong className="font-semibold text-gray-900">Januari 2022 - Sekarang</strong>
-                                        <br /> Saya Berkeja di suatu Perusahaan Rokok Elektrik yaitu PT. Movi Ventura Prima atau dikenal dengan MOVI atau Ministry Of Vape Indonesia.
-                                        <br /> Di Perusahaan ke tiga ini Saya berkerja sebagai IT dan Web Specialist dan supporting Digital Marketing.
-                                        <br /> Disini Saya Menjalankan Tugas sebagai IT dan juga support digital marketing, ada beberapa website yang saya bangun sendiri pada perusahaan ini, dan dari sisi IT nya saya membangun jaringan komputer dengan mikrotik dan menseting semuanya dan selalu mengecek tingkat kecepatan dari internet yang digunakan, dan menjalankan project juga sebagai technical support.
-                                        <br /> Pencapaian yang saya dapatkan adalah membangun website.
-                                        <br /> Membangun Sistem POS dengan Accurate POS dan Accurate Online.
-                                        <br />
+                                        <br /> <ul>
+                                            <li>Network Adminsitrator Mikrotik.</li>
+                                            <li>Management asset Infrastructure.</li>
+                                            <li>Office 365 Administrator.</li>
+                                            <li>Google Workspace Administrator.</li>
+                                            <li>Installation Windows & Linux.</li>
+                                            <li>Support Layer 1 & 2.</li>
+                                            <li>CMS Wordpress</li>
+                                            <li>Framework Next Js & Tailwind Css</li>
+                                            <li>SEO, SEM & ADS.</li>
+                                            <li>Adobe Photosop & Illustrator</li>
+                                            <li>Adobe Priemere Pro</li>
+                                            <li>Management Project</li>
+                                            <li>Business Flow Concepts</li>
+                                        </ul>
                                     </span>
                                 </li>
                             </ul>
-
-                            <h2 className="mt-16 text-2xl font-bold tracking-tight text-gray-900">Skill Umum dan Skill Lain</h2>
-                            <p className="mt-6">
-                                Cek dikolom bawah ya.
-                            </p>
                         </div>
                     </div>
                 </div>
             </div>
 
-            <div className="max-w-screen-xl mx-auto px-4 md:px-8 py-16">
+            <div className="max-w-screen-xl mx-auto px-4 md:px-8 py-24">
                 <div className="max-w-lg">
                     <h3 className="text-gray-800 text-xl font-bold sm:text-2xl">
                         Skill Umum
@@ -185,7 +202,7 @@ export default function Pengalaman() {
                     <table className="w-full table-auto text-sm text-left">
                         <thead className="bg-gray-50 text-gray-600 font-medium border-b">
                             <tr>
-                                <th className="py-3 px-6">Skill</th>
+                                <th className="py-3 px-6">*</th>
 
                             </tr>
                         </thead>
@@ -213,7 +230,7 @@ export default function Pengalaman() {
                     <table className="w-full table-auto text-sm text-left">
                         <thead className="bg-gray-50 text-gray-600 font-medium border-b">
                             <tr>
-                                <th className="py-3 px-6">Skill</th>
+                                <th className="py-3 px-6">*</th>
 
                             </tr>
                         </thead>

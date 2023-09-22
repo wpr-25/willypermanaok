@@ -126,7 +126,7 @@ export default function Navbars() {
                 <MobileNav open={openNav}>
                     {navList}
                     <Button variant="gradient" size="sm" fullWidth className="mb-2">
-                        <Link href="/">Fast Chat</Link>
+                        <Link href="https://wa.me/6285156951083">Fast Chat</Link>
                     </Button>
                 </MobileNav>
             </Navbar>

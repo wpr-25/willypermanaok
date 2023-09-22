@@ -175,7 +175,7 @@ export default function Home() {
                 title="Visit the East"
                 className="inline-block mb-3 text-2xl font-bold leading-5 transition-colors duration-200 hover:text-deep-purple-accent-700 text-black"
               >
-                Karya Tulis yang dibuat
+                Karya Tulis
               </Link>
               <p className="mb-2 text-gray-700">
                 Jurnal Analisis Behavior Intention ......
@@ -236,7 +236,7 @@ export default function Home() {
                 title="Film It!"
                 className="inline-block mb-3 text-2xl font-bold leading-5 transition-colors duration-200 hover:text-deep-purple-accent-700 text-black"
               >
-                Narasumber Security
+                Narasumber
               </a>
               <p className="mb-2 text-gray-700">
                 Diundang kreator programming.
