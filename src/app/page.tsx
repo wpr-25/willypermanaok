@@ -63,7 +63,7 @@ export default function Home() {
           <div className="max-w-screen-xl mx-auto md:px-8">
             <div className="items-center gap-x-12 sm:px-4 md:px-0 lg:flex">
               <div className="flex-1 sm:hidden lg:block">
-                <img src="https://media.licdn.com/dms/image/C4E03AQGcNaNiIsGIIg/profile-displayphoto-shrink_800_800/0/1619941879316?e=2147483647&v=beta&t=FnQJBTndlnUMmfDGipzTdWUT5AIo5bkiqCFM_Y1QHSM" className="md:max-w-lg sm:rounded-lg" alt="" />
+                <img src="https://media.licdn.com/dms/image/C4E03AQGcNaNiIsGIIg/profile-displayphoto-shrink_800_800/0/1619941879316?e=2147483647&v=beta&t=FnQJBTndlnUMmfDGipzTdWUT5AIo5bkiqCFM_Y1QHSM" className="md:max-w-lg sm:rounded-lg" alt="FotoCV" />
               </div>
               <div className="max-w-xl px-4 space-y-3 mt-6 sm:px-0 md:mt-0 lg:max-w-2xl">
                 <h3 className="text-indigo-600 font-semibold">
@@ -217,7 +217,7 @@ export default function Home() {
             <img
               src="https://vpnoverview.com/wp-content/uploads/what-is-a-hacker-what-is-hacking-featured-800x400.png"
               className="object-cover w-full h-64 rounded-md"
-              alt=""
+              alt="hack"
             />
             <div className="p-5 border border-t-0">
               <p className="mb-3 text-xs font-semibold tracking-wide uppercase">
