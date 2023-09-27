@@ -217,7 +217,7 @@ export default function Home() {
             <img
               src="https://vpnoverview.com/wp-content/uploads/what-is-a-hacker-what-is-hacking-featured-800x400.png"
               className="object-cover w-full h-64 rounded-md"
-              alt=""
+              alt="narasumber"
             />
             <div className="p-5 border border-t-0">
               <p className="mb-3 text-xs font-semibold tracking-wide uppercase">

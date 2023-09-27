@@ -11,7 +11,7 @@ export default function Portofolio() {
                 <div className="container px-6 py-10 mx-auto">
                     <div className="lg:flex lg:-mx-6">
                         <div className="lg:w-3/4 lg:px-6">
-                            <img className="object-cover object-center w-full h-80 xl:h-[28rem] rounded-xl" src="https://i.pinimg.com/originals/62/81/3e/62813e1a1c05d523b6ae1591338d8093.gif" alt="" />
+                            <img className="object-cover object-center w-full h-80 xl:h-[28rem] rounded-xl" src="https://i.pinimg.com/originals/62/81/3e/62813e1a1c05d523b6ae1591338d8093.gif" alt="gift" />
 
                             <div>
                                 <p className="mt-6 text-sm text-blue-500 uppercase">Want to know</p>
