@@ -12,7 +12,7 @@ const GoogleAnalytics = () => {
         <>
             <Script
                 strategy="afterInteractive"
-                src={`https://www.googletagmanager.com/gtag/js?id=G-SWLRRNE0EV${gtag.GA_TRACKING_ID}`}
+                src={`https://www.googletagmanager.com/gtag/js?id=${gtag.G-SWLRRNE0EV}`}
             />
             <Script
                 id="gtag-init"
@@ -22,7 +22,7 @@ const GoogleAnalytics = () => {
                       window.dataLayer = window.dataLayer || [];
                       function gtag(){dataLayer.push(arguments);}
                       gtag('js', new Date());
-                      gtag('config', '${gtag.GA_TRACKING_ID}', {
+                      gtag('config', '${gtag.G-SWLRRNE0EV}', {
                       page_path: window.location.pathname,
                       });
                     `,
